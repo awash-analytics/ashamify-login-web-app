@@ -8,5 +8,5 @@ logoutEl.addEventListener("click", function(e) {
     localStorage.setItem("loginStatus", false)
     
     // Redirect user to login page
-    location.assign("./index.html")
+    location.assign("index.html")
 })

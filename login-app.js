@@ -36,7 +36,7 @@ frmSigninEl.addEventListener("submit", function(e) {
 
         // Get url specific to a user
         // url_home = "home.html?username=".concat(username)
-        url_home = "./home.html?username=".concat(username)
+        url_home = "home.html?username=".concat(username)
 
         // Redirect user to home page
         location.assign(url_home)
@@ -81,12 +81,12 @@ showPasswordEl.addEventListener("change", function (e) {
 // Handle forget password request
 btnForgetPasswordEl.addEventListener("click", function(e) {
     // Redirect user to forget password page
-    location.assign("./forget-password.html")
+    location.assign("forget-password.html")
 })
 
 // Handle signup request
 btnSignupEl.addEventListener("click", function(e) {
 
     // Redirect user to signup page
-    location.assign("./signup.html")
+    location.assign("signup.html")
 })
