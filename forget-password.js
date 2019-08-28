@@ -34,7 +34,7 @@ frmForgetPasswordEl.addEventListener("submit", function(e) {
 
         // Redirect user to login page
         const btnLogin = document.createElement("a")
-        btnLogin.setAttribute('href', "../index.html")
+        btnLogin.setAttribute('href', "./index.html")
         btnLogin.innerHTML = "Login"
         btnLogin.style.border = "3px solid"
         btnLogin.style.padding = "5px"
@@ -51,7 +51,7 @@ frmForgetPasswordEl.addEventListener("submit", function(e) {
 
         // Display a register button to user
         var btnRegister = document.createElement("a")
-        btnRegister.setAttribute('href', "../index.html")
+        btnRegister.setAttribute('href', "./index.html")
         btnRegister.innerHTML = "Signup"
         btnRegister.style.border = "3px solid"
         btnRegister.style.padding = "5px"

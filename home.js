@@ -16,9 +16,9 @@ if (localStorage.getItem("loginStatus")) {
     } else {
 
         // Redirect user to login page
-        location.assign("login.html")
+        location.assign("index.html")
     }
 } else {
     // Redirect user to login page
-    location.assign("login.html")
+    location.assign("index.html")
 }
