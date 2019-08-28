@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login page | Index page</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="div-welcome">
+            <p>Welcome to <span id="welcome-ashamify">Ashamify App</span></p>
+        </div>
+
+        <!-- Signin container -->
+        <div class="div-signin">
+            <form action="" id="frm-signin">
+                <div class="form-group">
+                    <input type="text" id="inp-username" class="form-control" placeholder="Enter your username" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="password" id="inp-password" class="form-control" placeholder="Enter your password" required>
+                </div>
+
+                <div class="form-group">
+                    <!-- <input type="checkbox" id="show-password" onclick="toggleShowPassword()">Show Password -->
+                    <input type="checkbox" id="show-password"> Show Password
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" id="btn-submit" class="form-control" value="Sign In">
+                </div>
+
+                <!-- Tips: The message DIV should always kept inside FORM tag! -->
+                <div class="form-group" id="signin-status">
+                    <p id="signin-status-message"></p>
+                </div>
+            </form>
+        </div> <!-- End signin container-->
+        <br>
+
+        <!-- Forget password and Signup container -->
+        <div class="div-signup pull-right">
+            <div>
+                <button id="btn-forgetPassword" class="text-warning">Forget Password</button>
+            </div>
+            <br>
+            <div>
+                <button id="btn-signup" class="text-primary">Signup</button>
+            </div>
+        </div> <!-- End signup container-->
+        <br><br>
+    </div> <!-- End main container -->
+
+    <footer>
+        <!-- Company name and Copyright container -->
+        <!-- <hr> --> <!-- TODO -->
+        <div id="div-company" class="navbar fixed-bottom">
+            <p>Awash Analytics, Inc &copy; 2019</p>
+        </div>
+    </footer>
+
+    <!-- Inlude JavaScript programs -->
+    <script src="uuidv4.js"></script>
+    <script src="./scripts/login.js"></script>
+    <script src="./scripts/login-app.js"></script>
+</body>
+</html>
